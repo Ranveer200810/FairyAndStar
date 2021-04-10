@@ -11,11 +11,11 @@ const Body = Matter.Body;
 
 function preload()
 {
-	starImg = loadImage("images/star.png");
-	bgImg = loadImage("images/starNight.png");
+	starImg = loadImage("star.png");
+	bgImg = loadImage("starNight.png");
 	//load animation for fairy here
-	IM = loadAnimation( "images/fairyImage1.png", "images/fairyImage2.png");
-	sound = loadSound("sound/JoyMusic.mp3");
+	IM = loadAnimation( "fairyImage1.png", "images/fairyImage2.png");
+	sound = loadSound("JoyMusic.mp3");
 }
 
 function setup() {
